@@ -1,16 +1,74 @@
 *{
     margin: 0;
     padding: 0;
-    text-decoration: none;
     box-sizing: border-box;
-    border: none;
-    outline: none;
-    scroll-behavior: smooth;
     font-family: Arial, sans-serif;
+    text-decoration: none;
+    color: white;
+    
 }
-:root{
-   --bg-color:#fff;
-   --snd-bg-color:#d5fdf9;
-   --text-color:#0000;
-   --nain-color: #007f73
+body{
+     background: linear-gradient(160deg, #0b1b33 0%, #12294d 100%);
+  color: #f1f5f9;
 }
+
+.contanier{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+      color: white;
+}
+.box{
+    height: 86vh;
+    width: 75%;
+padding: 0 20px;
+background-color: rgba(16, 185, 129, 0.15);
+z-index: 10;
+border: 2x solid  rgba(16, 185, 129, 0.15);
+border-radius: 20px;
+box-shadow: -15px 17px rgba(10, 10, 10, 0.15);
+
+}
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    padding: 20px;
+    align-items: center;
+    
+}
+.navbar ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    
+    
+}
+.logo {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    
+}
+.bio-section{
+    color: blue;
+    display: flex;
+    align-items: end;
+    gap: 20px;
+    justify-content: space-between;
+}
+.bio-img{
+    background-color:rgba(16, 185, 129, 0.15);;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.bio-img img{
+   width: 150px; 
+   height: 200px;
+   transform: scale(100px);
+   
+}
+
+
