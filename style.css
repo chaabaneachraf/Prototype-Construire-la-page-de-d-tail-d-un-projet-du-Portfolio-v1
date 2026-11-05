@@ -12,6 +12,7 @@ body{
     #0a0f14;
   
 }
+
 .nav{
     display: flex;
     justify-content: space-between;
@@ -88,6 +89,9 @@ margin-top: 20px;
     padding: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+}
+.myProject{
+    display: flex;
 }
 .bio-project{
     background-color: #111A20;
